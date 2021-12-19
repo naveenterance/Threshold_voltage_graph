@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Graphs</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href= "{{ url_for('static',filename='style.css') }}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+
+<ul class="menu">
+	<li><span><b>Plot graphs versus v<sub>th</sub> for the following:</b></span></li>
+	<br></br>
+	
+	<li><span><a href="/tox/">Oxide Thickness --------<b>t<sub>ox</sub></b></a></span></li>
+	<li><span><a href="/concen/">Doping concentration---<img src="static/diode.png" width="40" height="40"></a></span></li>
+	<li><span><a href="/temp/">Temperature------------<img src="static/temp.png" width="30" height="30"></a></span></li>
+	<li><span><a href="/gamma/">Gamma -----------------<img src="static/gamma.png" width="30" height="30"></a></span></li>
+	<li><span><a href="/phif/">Phif ---------------------<img src="static/phi.png" width="30" height="30"></a></span></li>
+</ul>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="{{ url_for('static',filename='script.js') }}"> </script>
+
+</body>
+</html>
