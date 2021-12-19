@@ -8,23 +8,23 @@ def index():
 
 @app.route('/tox/')
 def my_link1():
-    os.system('py tox.py')
+    os.system('python tox.py')
     return ('', 204)
 @app.route('/concen/')
 def my_link2():
-    os.system('py concen.py')
+    os.system('python concen.py')
     return ('', 204)
 @app.route('/gamma/')
 def my_link3():
-    os.system('py gamma.py')
+    os.system('python gamma.py')
     return ('', 204)
 @app.route('/phif/')
 def my_link4():
-    os.system('py phif.py')
+    os.system('python phif.py')
     return ('', 204)
 @app.route('/temp/')
 def my_link5():
-    os.system('py temp.py')
+    os.system('python temp.py')
     return ('', 204)
 
 
